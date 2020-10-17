@@ -1,0 +1,374 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  .nav-item {
+    margin-left: 0px;
+  }
+  
+  .banner-left p {
+    padding: 0px 87px 0 0;
+  }
+
+  .banner-left h1 {
+    font-size: 40px;
+  }
+
+  .banner-section {
+    width: 100%;
+    background: #fcc302;
+    padding: 40px 0;
+  }
+
+
+  .video-part-1-section {
+      width: 100%;
+      background: white;
+      padding: 60px 0;
+  }
+
+  .video-part-1-section .left {
+    padding: 0 50px 0 0;
+  }
+
+  .video-part-1-section .left h2 {
+    font-weight: 600;
+    font-size: 29px;
+    margin-bottom: 0;
+  }
+
+  .video-part-1-section .left p {
+    margin-bottom: 0;
+    padding: 18px 21px 18px 0;
+    text-align: justify;
+  }
+
+  .video-part-1-section .right .video-part .box {
+    position: absolute;
+    width: 188px;
+    background: #fcc302;
+    height: 188px;
+    bottom: -27px;
+    left: -27px;
+  }
+
+  .feature-section .title p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 0 28px 0;
+    text-align: center;
+  }
+
+  .feature-section .des-part h1 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .video-part-2-section .left {
+    padding-left: 58px;
+  }
+
+  .video-part-2-section .left h2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 29px;
+  }
+
+  .price-section .title p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 0px 28px 0;
+  }
+
+  .counter-part h3 {
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .counter-section {
+    width: 100%;
+    background: url(../img/counter-banner.png);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48vh;
+  }
+
+  .counter-part {
+    height: 48vh;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .post-section .lower .card .card-body .des {
+    margin-bottom: 0;
+    color: #313243;
+    text-align: justify;
+    margin-top: 13px;
+  }
+   
+  }
+
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+  .nav-item {
+    margin-left: 0px;
+  }
+
+
+  .banner-section {
+    width: 100%;
+    background: #fcc302;
+    padding: 30px 0;
+  }
+
+
+  .banner-left{
+    text-align: center;
+  }
+
+
+  .banner-left h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .banner-left p {
+    padding: 0;
+  }
+
+
+  .banner-left .banner-button{
+    margin-top: 30px; 
+  }
+
+
+  .banner-section .banner-right{
+    padding-top: 23px;
+  }
+
+
+  .video-part-1-section {
+    width: 100%;
+    background: white;
+    padding: 40px 0;
+  }
+
+
+  .video-part-1-section .left {
+    text-align: center;
+    padding: 0;
+  }
+
+
+  .video-part-1-section .left h2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 28px;
+  }
+
+
+  .video-part-1-section .right{
+    padding:37px 26px; 
+  }
+
+
+  .video-part-1-section .right .video-part .box {
+    position: absolute;
+    width: 150px;
+    background: #fcc302;
+    height: 150px;
+    bottom: -23px;
+    left: -23px;
+  }
+
+
+  .feature-section .title p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 17px;
+    padding: 0;
+  }
+
+
+  .feature-section .feature-1 {
+    margin-top: 36px;
+  }
+
+
+  .video-part-2-section .right{
+    padding:37px 26px; 
+  }
+
+
+  .video-part-2-section .right .video-part .box {
+    position: absolute;
+    width: 150px;
+    background: #fcc302;
+    height: 150px;
+    bottom: -23px;
+    right: -23px;
+  }
+
+
+  .video-part-2-section {
+    width: 100%;
+    background: white;
+    padding: 0;
+  }
+
+
+  .video-part-2-section .left {
+    text-align: center;
+    padding: 0;
+  }
+
+
+  .video-part-2-section .left h2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 28px;
+  }
+
+
+  .video-part-2-section .left p {
+    margin-bottom: 0;
+    text-align: justify;
+    padding: 20px 0px;
+  }
+
+
+  .video-part-2-section .left button {
+    padding: 11px;
+    background: #fcc302;
+    color: white;
+    border: none;
+    border: 1px solid #fcc302;
+    border-radius: 5px;
+    margin-bottom: 35px;
+  }
+
+
+  .price-section {
+    width: 100%;
+    background: #fcc302;
+    padding: 40px 0;
+  }
+
+
+  .price-section .title p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+
+  .doctor-section {
+    width: 100%;
+    background: white;
+    padding:0;
+    margin-top: 40px;
+  }
+
+
+  .doctor-section .title p {
+    color: #313243;
+    font-size: 23px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+
+  .doc-pic .col-md-4{
+    margin-bottom: 44px;
+  }
+
+
+  .counter-section {
+    height: auto;
+  }
+
+
+  .counter-part {
+    height: auto;
+  }
+
+
+  .counter-section .col-md-4{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+
+  .post-section .lower {
+    padding-top:30px;
+    padding-bottom: 0;
+  }
+
+
+  .post-section .lower .col-md-4{
+    margin-bottom: 40px;
+  }
+
+
+  footer .last{
+    text-align: center;
+  }
+
+  footer .last .col-md-3{
+    
+  }
+
+
+  footer .last .col-md-6 {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+
+  footer form input {
+    padding: 7px 56px;
+    background: #daac00;
+    border: none;
+    width: 100%;
+  }
+
+
+  footer .col-md-3-lower{
+    margin-top: 35px
+  }
+
+
+  footer ul li p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+
+}
